@@ -1,0 +1,11 @@
+framework module delcheck_ios {
+  umbrella header "delcheck_ios.h"
+  export *
+
+  module * { export * }
+}
+
+module delcheck_ios.Swift {
+  header "delcheck_ios-Swift.h"
+  requires objc
+}

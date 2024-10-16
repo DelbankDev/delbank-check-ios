@@ -1,0 +1,461 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "delcheck_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "delcheck_ios"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SendPushNotification",
+        "printedName": "SendPushNotification",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "deviceToken",
+            "printedName": "deviceToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12delcheck_ios20SendPushNotificationV11deviceTokenSSvp",
+            "mangledName": "$s12delcheck_ios20SendPushNotificationV11deviceTokenSSvp",
+            "moduleName": "delcheck_ios",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12delcheck_ios20SendPushNotificationV11deviceTokenSSvg",
+                "mangledName": "$s12delcheck_ios20SendPushNotificationV11deviceTokenSSvg",
+                "moduleName": "delcheck_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceModel",
+            "printedName": "deviceModel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12delcheck_ios20SendPushNotificationV11deviceModelSSvp",
+            "mangledName": "$s12delcheck_ios20SendPushNotificationV11deviceModelSSvp",
+            "moduleName": "delcheck_ios",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12delcheck_ios20SendPushNotificationV11deviceModelSSvg",
+                "mangledName": "$s12delcheck_ios20SendPushNotificationV11deviceModelSSvg",
+                "moduleName": "delcheck_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceManufacturer",
+            "printedName": "deviceManufacturer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12delcheck_ios20SendPushNotificationV18deviceManufacturerSSvp",
+            "mangledName": "$s12delcheck_ios20SendPushNotificationV18deviceManufacturerSSvp",
+            "moduleName": "delcheck_ios",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12delcheck_ios20SendPushNotificationV18deviceManufacturerSSvg",
+                "mangledName": "$s12delcheck_ios20SendPushNotificationV18deviceManufacturerSSvg",
+                "moduleName": "delcheck_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12delcheck_ios20SendPushNotificationV10sdkVersionSSvp",
+            "mangledName": "$s12delcheck_ios20SendPushNotificationV10sdkVersionSSvp",
+            "moduleName": "delcheck_ios",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12delcheck_ios20SendPushNotificationV10sdkVersionSSvg",
+                "mangledName": "$s12delcheck_ios20SendPushNotificationV10sdkVersionSSvg",
+                "moduleName": "delcheck_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "identifierForVendor",
+            "printedName": "identifierForVendor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12delcheck_ios20SendPushNotificationV19identifierForVendorSSSgvp",
+            "mangledName": "$s12delcheck_ios20SendPushNotificationV19identifierForVendorSSSgvp",
+            "moduleName": "delcheck_ios",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12delcheck_ios20SendPushNotificationV19identifierForVendorSSSgvg",
+                "mangledName": "$s12delcheck_ios20SendPushNotificationV19identifierForVendorSSSgvg",
+                "moduleName": "delcheck_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(deviceToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SendPushNotification",
+                "printedName": "delcheck_ios.SendPushNotification",
+                "usr": "s:12delcheck_ios20SendPushNotificationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12delcheck_ios20SendPushNotificationV11deviceTokenACSS_tcfc",
+            "mangledName": "$s12delcheck_ios20SendPushNotificationV11deviceTokenACSS_tcfc",
+            "moduleName": "delcheck_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SendPushNotification",
+                "printedName": "delcheck_ios.SendPushNotification",
+                "usr": "s:12delcheck_ios20SendPushNotificationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12delcheck_ios20SendPushNotificationV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12delcheck_ios20SendPushNotificationV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "delcheck_ios",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12delcheck_ios20SendPushNotificationV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12delcheck_ios20SendPushNotificationV6encode2toys7Encoder_p_tKF",
+            "moduleName": "delcheck_ios",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12delcheck_ios20SendPushNotificationV",
+        "mangledName": "$s12delcheck_ios20SendPushNotificationV",
+        "moduleName": "delcheck_ios",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApiService",
+        "printedName": "ApiService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApiService",
+                "printedName": "delcheck_ios.ApiService",
+                "usr": "s:12delcheck_ios10ApiServiceC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12delcheck_ios10ApiServiceCACycfc",
+            "mangledName": "$s12delcheck_ios10ApiServiceCACycfc",
+            "moduleName": "delcheck_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "sendPushNotification",
+            "printedName": "sendPushNotification(data:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SendPushNotification",
+                "printedName": "delcheck_ios.SendPushNotification",
+                "usr": "s:12delcheck_ios20SendPushNotificationV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12delcheck_ios10ApiServiceC20sendPushNotification4data10completionyAA04SendfG0V_ys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s12delcheck_ios10ApiServiceC20sendPushNotification4data10completionyAA04SendfG0V_ys6ResultOyyts5Error_pGctF",
+            "moduleName": "delcheck_ios",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12delcheck_ios10ApiServiceC",
+        "mangledName": "$s12delcheck_ios10ApiServiceC",
+        "moduleName": "delcheck_ios",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

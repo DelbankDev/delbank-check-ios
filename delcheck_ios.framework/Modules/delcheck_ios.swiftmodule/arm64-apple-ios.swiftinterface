@@ -1,0 +1,21 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name delcheck_ios
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import delcheck_ios
+public struct SendPushNotification : Swift.Codable {
+  public init(deviceToken: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public class ApiService {
+  public init()
+  public func sendPushNotification(data: delcheck_ios.SendPushNotification, completion: @escaping (Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)
+  @objc deinit
+}
