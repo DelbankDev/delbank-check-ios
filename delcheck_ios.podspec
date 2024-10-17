@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "delcheck_ios"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of delcheck_ios."
   spec.homepage     = "https://github.com/DelbankDev/delbank-check-ios"
 
