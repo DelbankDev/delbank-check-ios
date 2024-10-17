@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "delcheck_ios"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "A short description of delcheck_ios."
   spec.homepage     = "https://github.com/DelbankDev/delbank-check-ios"
 
@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
 
 
   spec.ios.deployment_target = '11.0'
-  spec.ios.vendored_frameworks = 'delcheck_ios.framework'
+  spec.ios.vendored_frameworks = 'delcheck_framework.framework'
   spec.source       = { :git => "https://github.com/DelbankDev/delbank-check-ios.git", :tag => spec.version.to_s }
 
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
