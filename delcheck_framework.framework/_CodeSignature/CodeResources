@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/delcheck_framework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		4yVg8zA3G7Dpmb/83T6dT30lgQI=
+		CE/egfKGkG7FpmlWJEc5yfCCFHc=
 		</data>
 		<key>Modules/delcheck_framework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/delcheck_framework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		hH4TbLrFUj2Ktv8Mup1U5/So6Nc=
+		KYjJuSa28DhVFiz3LSYYNW4KRzk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -57,7 +57,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bgiexU4UxGyjqOZe5T0kd12cSYAr4RpB2TsRA3nS4Mk=
+			Y+y3mi4z5JNtBcgl5NZTkphvKf0H2nj82IuvFSv2POE=
 			</data>
 		</dict>
 		<key>Modules/delcheck_framework.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jZP5eDE/nYNjT1Rk2f3UaQHbiKY5KXQfL+piBjXXVOs=
+			yMEHSkALbJ8qoRqoQFO6XT/RI1dRdy1XBdEAzjYTjjw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
