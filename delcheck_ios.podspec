@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "delcheck_ios"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "A short description of delcheck_ios."
   spec.homepage     = "https://github.com/DelbankDev/delbank-check-ios"
 
@@ -20,5 +20,4 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
-  spec.dependency 'GoogleMLKit/FaceDetection', '4.0.0'
 end
